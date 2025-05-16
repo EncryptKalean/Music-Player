@@ -16,6 +16,12 @@ Este é um projeto de **player de música interativo** desenvolvido com **HTML, 
 
 ---
 
+## 🚀 Como Executar
+
+https://encryptkalean.github.io/Music-Player/
+
+---
+
 ## 💡 Tecnologias Utilizadas
 
 - HTML5
@@ -37,10 +43,6 @@ Este é um projeto de **player de música interativo** desenvolvido com **HTML, 
 - Boas práticas de separação de responsabilidades (HTML, CSS, JS)
 
 ---
-
-## 🚀 Como Executar
-
-https://encryptkalean.github.io/Music-Player/
 
 ## 📄 Licença
 
