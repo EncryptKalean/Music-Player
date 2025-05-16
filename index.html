@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu tocador de musicas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <h2>Minha Playlist</h2>
+    <img id="foto-album" src="" alt="Foto da playlist" />
+    <audio id="audio" src="src/Songs/More_Than_You_Know.mp3"></audio>
+    <div id="meio">
+      <div id="musica-info">
+        <h1 id="nome-musica">Song Name</h1>
+        <p id="nome-artista">Artist Name</p>
+      </div>
+      <!-- musicainfo -->
+      <button id="favorito" aria-label="Favoritar"><i class="bi bi-heart"></i></button>
+    </div>
+    <!-- meio -->
+    <div id="progress-container">
+      <div id="progress-bar">
+        <div id="current-progress"></div>
+      </div>
+      <div id="temporizador">
+        <div id="tempo-atual">00:00</div>
+        <div id="tempo-total">00:00</div>
+      </div>
+    </div>
+    <!-- progress-container -->
+    <div id="button-container">
+      <button id="aleatorio" aria-label="Aleatorizar"><i class="bi bi-shuffle"></i></button>
+      <button id="voltar" aria-label="Voltar musica"><i class="bi bi-skip-start-fill"></i></button>
+      <button id="play" aria-label="Tocar musica"><i class="bi bi-play-circle-fill"></i></button>
+      <button id="pular" aria-label="Pular musica"><i class="bi bi-skip-end-fill"></i></button>
+      <button id="repetir" aria-label="Repetir musica atual"><i class="bi bi-repeat"></i></button>
+    </div>
+    <!-- button-container -->
+    <script src="src/script.js"></script>
+  </body>
+</html>
